@@ -1,0 +1,232 @@
+.login_section{
+    position: relative;
+    height: 100vh;
+    min-height:100vh;
+    margin: auto;
+}
+
+.login_right_section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    padding: 10%;
+    background: url("../../../assets/images/orange-background.png");
+    background-size: cover;
+}
+.login_left_section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    padding: 10% 20%;
+    background: url("../../../assets/images/white-background.png");
+    background-size: cover;
+}
+.logo_image{cursor: pointer;margin-bottom: 50px;}
+.login_left_heading{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+.login_left_heading span{
+    color: #EF6725;
+}
+.login_right_heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 128%;
+    color:#fff;
+    font-family: 'Quicksand';
+
+}
+.right_section_image{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login_form {
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+.eye{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #989898;
+}
+
+
+.login_form .email_label, .login_form .password_label {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 122.69%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.015em;
+    color: #666666;
+
+}
+.login_form .input_email_icon{
+    position: absolute;
+    top: 18px;
+    left: 5px;
+}
+.login_form .input_password_icon{
+    position: absolute;
+    top: 12px;
+    left: 5px;
+}
+.login_form .email_input, .login_form .password_input {
+    box-sizing: border-box;
+    background: #F9F9F9;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    height:48px;
+    padding-left: 25px;
+}
+.login_form .email_input:focus, .login_form .password_input:focus {
+    box-shadow: none !important;
+    border: 1px solid #CCCCCC !important;
+}
+
+.login_form .email_input::placeholder, .login_form .password_input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 122.69%;
+    /* or 17px */
+
+    letter-spacing: 0.015em;
+
+    color: #C8C8C8;
+}
+
+.login_form .check_label {
+    font-size: 17px;
+    line-height: 122.69%;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.58);
+    font-family: 'lato_italic';
+}
+
+.login_form .privacy_link {
+    border-bottom: 1px solid rgba(242, 116, 5, 1);
+    cursor: pointer;
+}
+
+.login_form .btn_login {
+    background: #EF6725;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    /* identical to box height, or 62% */
+    text-align: center;
+    height:48px;
+    width:100%;
+    color: #FFFFFF;
+}
+
+.login_form .btn_login:hover {
+    background: #EF6725;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    /* identical to box height, or 62% */
+    height:48px;
+    text-align: center;
+    color: #FFFFFF;
+    width:100%;
+}
+
+
+.forgot_password a,
+.forgot_password a:hover{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 122.69%;
+    /* identical to box height, or 15px */
+    float: right;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.58);
+}
+.footer_section{
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+
+}
+.footer_section ul{
+    list-style: none !important;
+}
+.footer_section ul li{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 122.69%;
+    /* or 17px */
+    color: #4B4B4B;
+}
+.footer_section ul li span{
+    padding: 0 5px;
+}
+.cl_custom_check {
+    display: none;
+}
+.cl_custom_check + .cl_custom_check_label {
+
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #F27405;
+    border-radius: 2px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    height:40px;
+    line-height: 18px;
+    padding: 10px;
+    /* identical to box height */
+    text-align: center;
+    color: #F27405;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.cl_custom_check:checked {
+    /* Checked style */
+}
+.cl_custom_check_label span{display:none;}
+.cl_custom_check:checked + .cl_custom_check_label {
+    background-color: #F27405;
+    color:#FFFFFF;
+    backface-visibility: hidden;
+}
+.cl_custom_check:checked + .cl_custom_check_label span{
+    display:inline-flex;
+}

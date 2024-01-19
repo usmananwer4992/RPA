@@ -1,0 +1,71 @@
+.annotations_modal_header {
+    background: #F27405;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.annotations_modal_title {
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.annotations_modal_header button {
+    background: url('../../assets/images/modal-close.svg') center/1em no-repeat;
+    border:none !important;
+}
+.annotations_modal_header button span{
+    color:#fff;
+}
+.doc_type_wrapper p {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #686868;
+}
+
+.doc_type_wrapper select {
+    background-color: #EEEEEE;
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 2px;
+    background-image: url('../../assets/images/caret-down-orange.svg');
+    font-size: 14px;
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.sidebar_dropdown_wrapper button {
+    background-color: #fff !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F27405 !important;
+    border: 0px !important;
+    text-align: left !important;
+    width: 100% !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.sidebar_dropdown_wrapper ul {
+    transform: translate3d(0px, 0px, 0px) !important;
+    position: relative !important;
+}
+
+.sidebar_dropdown_wrapper ul li a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F27405 !important;
+    background-color: transparent !important;
+}
+
+.sidebar_dropdown_wrapper ul li:last-child{
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    margin-top: 10px;
+}
+
+#anno-img{
+    width: 100%;
+}

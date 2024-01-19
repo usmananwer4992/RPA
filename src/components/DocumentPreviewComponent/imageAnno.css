@@ -1,0 +1,14 @@
+.box {
+/*     background: #ddd; */
+    border-style: solid;
+    border-color: red;
+    border-width:thin;
+    position: absolute;
+}
+/* #target {
+  margin: 15px;
+  background: #fff;
+  border: 1px solid black;
+  min-height: 400px;
+  position: relative;
+} */

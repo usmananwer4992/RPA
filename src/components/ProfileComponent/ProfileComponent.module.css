@@ -1,0 +1,166 @@
+.profile_left_img {
+    background-image: url('../../assets/images/profileimg.svg');
+    background-size: cover;
+    min-height: 100vh;
+    height:100%;
+}
+
+.personal_info_header, .company_info_header {
+    background: #EF6725;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+}
+
+.personal_info_wrapper, .company_info_wrapper {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.form_wrapper label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 122.69%;
+    letter-spacing: 0.015em;
+    color: #666666;
+}
+
+.phone_field {
+    border: 1px solid #CCCCCC !important;
+    background: #F9F9F9 !important;
+    height: 38px !important;
+    border-radius: 5px;
+    padding-left: 10px !important;
+}
+
+.form_wrapper input {
+    background: #F9F9F9 !important;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 5px;
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.phone_field input {
+    background: transparent !important;
+    border: 0px !important;
+}
+.login_form .btn_login {
+    background: #EF6725;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    /* identical to box height, or 62% */
+    text-align: center;
+    height:48px;
+    width:100%;
+    color: #FFFFFF;
+}
+
+.login_form .btn_login:hover {
+    background: #EF6725;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    /* identical to box height, or 62% */
+    height:48px;
+    text-align: center;
+    color: #FFFFFF;
+    width:100%;
+}
+
+.btn_submit {
+    width: 95%;
+    display: block;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: auto;
+    background: #EF6725 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 2px !important;
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF !important;
+    height: 48px;
+}
+.cl_custom_check {
+    display: none;
+}
+.cl_custom_check + .cl_custom_check_label {
+
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #F27405;
+    border-radius: 2px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    height:40px;
+    line-height: 18px;
+    padding: 10px;
+    /* identical to box height */
+    text-align: center;
+    color: #F27405;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.cl_custom_check:checked {
+    /* Checked style */
+}
+.cl_custom_check_label span{display:none;}
+.cl_custom_check:checked + .cl_custom_check_label {
+    background-color: #F27405;
+    color:#FFFFFF;
+    backface-visibility: hidden;
+}
+.cl_custom_check:checked + .cl_custom_check_label span{
+    display:inline-flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .profile_left_img--tabletScreen {
+        display: none;
+    }
+
+    .personal_info_wrapper--tabletScreen, .company_info_wrapper--tabletScreen{
+        margin:  10px 15px;
+    }
+
+    /* .personal_info_wrapper--tabletScreen, .company_info_wrapper--tabletScreen {
+        padding: 25px;
+    } */
+
+}
+@media only screen and (max-width: 768px) {
+    .profile_left_img--mobileScreen {
+        display: none !important;
+    }
+    .personal_info_wrapper, .company_info_wrapper {
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+}

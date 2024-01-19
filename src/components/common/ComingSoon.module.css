@@ -1,0 +1,42 @@
+.annotations_modal{
+    width: 300px;
+}
+
+.annotations_modal_header {
+    background: #F27405;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.annotations_modal_title {
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #FFFFFF !important;
+}
+
+.annotations_modal_header button {
+    background: url('../../assets/images/modal-close.svg') center/1em no-repeat;
+    border:none !important;
+}
+.annotations_modal_header button span{
+    color:#fff;
+}
+.annotations_modal_body{
+    margin: 40px;
+}
+
+.doc_type_wrapper {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #686868;
+}
+.doc_type_wrapper p {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #686868;
+}
